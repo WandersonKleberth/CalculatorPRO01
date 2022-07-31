@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="script.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="fundo">
+        <h1>Wanderson Klebert</h1>
+        <h2>Projeto com HTML - CSS - JS</h2>
+        <h3>OneBit<span>Code</span></h3>
+
+        <div class="calculadora">
+            <div class="obt">
+                <img src="comonents/image/logoOBC.svg" alt="logo-obc">
+            </div>
+            <h1>CALCULATOR</h1>
+            <p id="resultado"></p>
+            <table>
+                <tr>
+                    <td><button class="btn-limpa" onclick="clean('')">AC</button></td>
+                    <td><button class="btn-DEL" onclick="back('')">DEL</button></td>
+                    <td><button class="btn"onclick="insert('/')">÷</button></td>
+                    <td><button class="btn" onclick="insert('*')">X</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn" onclick="insert('7')">7</button></td>
+                    <td><button class="btn" onclick="insert('8')">8</button></td>
+                    <td><button class="btn" onclick="insert('9')">9</button></td>
+                    <td><button class="btn" onclick="insert('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn" onclick="insert('4')">4</button></td>
+                    <td><button class="btn" onclick="insert('5')">5</button></td>
+                    <td><button class="btn" onclick="insert('6')">6</button></td>
+                    <td><button class="btn" onclick="insert('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn" onclick="insert('1')">1</button></td>
+                    <td><button class="btn" onclick="insert('2')">2</button></td>
+                    <td><button class="btn" onclick="insert('3')">3</button></td>
+                    <td rowspan="2"><button class="btn" id="btn-igual" onclick="calcular ()">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button class="btn" id="btn-zero" onclick="insert('0')">0</button></td>
+                    <td><button class="btn" onclick="insert('.')">.</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

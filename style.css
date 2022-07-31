@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fundo {
+    background-image: linear-gradient(45deg, #000, crimson);
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: rgba(0,0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/* .obc {
+    height: 10px;
+    width: 10px;
+} */
+
+.calculadora h1 {
+    text-decoration: underline;
+}
+
+.fundo h3 {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #000;
+}
+
+.fundo h3 span{
+    font-weight: bold;
+    color: crimson;
+    text-shadow: 0.5px 0.5px #ffffff;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(31,31,31);
+    border: none;
+    border-radius: 2px;
+    margin: 2px;
+}
+
+.btn:hover {
+    background-color: #000;
+    transition: all 0.3s;
+}
+
+.btn-DEL {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(245, 2, 2);
+    border: none;
+    border-radius: 2px;
+    margin: 2px;
+}
+
+.btn-DEL:hover {
+    background-color: rgb(128, 16, 16);
+    transition: all 0.3s;
+}
+
+.btn-limpa{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(245, 2, 2);
+    border: none;
+    border-radius: 2px;
+    margin: 2px;
+}
+
+.btn-limpa:hover {
+    background-color: rgb(128, 16, 16);
+    transition: all 0.3s;
+}
+
+#btn-igual {
+    height: 106px;
+}
+
+#btn-igual {
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    /* background-color: rgb(245, 2, 2); */
+    background-color: rgb(2, 245, 124);
+    border: none;
+    border-radius: 2px;
+}
+
+#btn-zero {
+    width: 106px;
+}
+
+#btn-igual:hover {
+    background-color: rgb(24, 153, 88);
+    transition: all 0.3s;
+}
+
+#resultado {
+    background-color: #fff;
+    width: 207px;
+    height: 30px;
+    margin: 5px;
+    color: #000;
+    text-align: right;
+    padding: 5px;
+}
